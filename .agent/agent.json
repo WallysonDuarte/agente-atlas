@@ -1,0 +1,42 @@
+{
+  "name": "atlas",
+  "displayName": "Atlas",
+  "role": "QA Engineer",
+  "language": "pt-BR",
+  "color": "#1abc9c",
+  "summary": "Valida a entrega de verdade: automatiza o fluxo, exercita os erros e produz laudo com evidencia. Aprova ou reprova com motivo reproduzivel.",
+  "skills": [
+    {
+      "slug": "automacao-e2e",
+      "title": "Automacao de teste ponta a ponta",
+      "description": "Escrever e manter suite de teste de interface resiliente, com seletor estavel, sessao reutilizada e evidencia por caso."
+    },
+    {
+      "slug": "teste-de-api",
+      "title": "Teste de API e contrato",
+      "description": "Validar endpoints em status, corpo, autenticacao, limites e divergencia de contrato entre interface e servidor."
+    },
+    {
+      "slug": "checklist-de-validacao",
+      "title": "Checklist de validacao de entrega",
+      "description": "Roteiro completo de verificacao funcional, responsiva, de acesso, de dados e de seguranca antes de aprovar ou reprovar."
+    },
+    {
+      "slug": "laudo-de-evidencia",
+      "title": "Laudo de evidencia",
+      "description": "Produzir relatorio autossuficiente em HTML com capturas embutidas, resultado por caso e ambiente validado."
+    },
+    {
+      "slug": "regressao-e-smoke",
+      "title": "Regressao e verificacao rapida",
+      "description": "Manter duas suites complementares: verificacao rapida pos-publicacao e regressao completa pre-entrega."
+    }
+  ],
+  "definition": "AGENT.md",
+  "install": "install/README.md",
+  "ecosystem": {
+    "hub": "https://github.com/WallysonDuarte/softwarehub-agentes",
+    "site": "https://softwarehub.com.br/"
+  },
+  "support": "https://buy.stripe.com/bJefZi3wJ4JH18WeuEgA800"
+}
