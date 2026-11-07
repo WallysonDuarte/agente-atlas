@@ -76,10 +76,10 @@ agente-atlas/
 ├── AGENT.md                 definicao canonica do agente
 ├── .agent/agent.json        metadados legiveis por maquina
 ├── skills/
-│   └── automacao-e2e/SKILL.md
-│   └── teste-de-api/SKILL.md
-│   └── checklist-de-validacao/SKILL.md
-│   └── laudo-de-evidencia/SKILL.md
+│   ├── automacao-e2e/SKILL.md
+│   ├── teste-de-api/SKILL.md
+│   ├── checklist-de-validacao/SKILL.md
+│   ├── laudo-de-evidencia/SKILL.md
 │   └── regressao-e-smoke/SKILL.md
 ├── install/README.md        instalacao nas 8 CLIs
 └── assets/portrait.png
