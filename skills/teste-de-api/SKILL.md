@@ -27,8 +27,9 @@ entrada" de "o servidor caiu", e o log de erro fica poluido.
 
 1. Envie pela interface e leia o registro gravado no banco.
 2. Compare campo a campo. Campo enviado que nao chegou e defeito.
-3. Verifique nomes divergentes (`uf` x `estado`, `email` x `emailContato`) — o sintoma tipico e
-   botao de salvar desabilitado na edicao ou dado que volta ao valor padrao.
+3. Verifique nomes divergentes entre tela e API (por exemplo, um campo com nomes diferentes nos
+   dois lados) — o sintoma tipico e botao de salvar desabilitado na edicao ou dado que volta ao
+   valor padrao.
 4. Verifique se a atualizacao envia **todos** os campos do contrato: atualizacao que omite um
    campo novo o zera em silencio.
 5. Mudanca de contrato tem de ser aditiva: o conjunto de campos antigo continua presente. Prove

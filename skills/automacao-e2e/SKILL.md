@@ -32,7 +32,7 @@ nao contorne no teste.
 
 Faca **um** login no preparo global e reutilize o estado salvo. Atencao:
 
-- Sistema com sessao unica por usuario derruba logins concorrentes: nao rode duas execucoes em
+- Sistema que permite uma unica sessao por usuario derruba logins concorrentes: nao rode duas execucoes em
   paralelo com a mesma conta, nem logue manualmente durante a execucao.
 - Estado salvo expira. O auxiliar de navegacao deve detectar a tela de login e refazer a
   autenticacao, em vez de falhar.
@@ -71,8 +71,8 @@ sobrescreve o arquivo de resultado.
 ## Suite longa
 
 Execucao que passa do tempo limite da ferramenta roda **desacoplada**, gravando um marcador de
-conclusao; a espera acontece por verificacao do marcador. Nunca encerre processos por nome parcial:
-isso derruba programas do usuario.
+conclusao; a espera acontece por verificacao do marcador. Encerre apenas o processo que voce
+iniciou, identificado pelo identificador exato, nunca por nome parcial.
 
 ## Checklist
 
